@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { ArrowRight, Play, Star, Zap, Target, Trophy } from 'lucide-react';
+import { ArrowRight, Play, Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export default function Hero() {
@@ -123,8 +123,8 @@ export default function Hero() {
             {/* Stats */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-6 mt-10 animate-slide-up" style={{ animationDelay: '0.4s' }}>
               <div className="flex items-center gap-2 text-white/90">
-                <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center">
-                  <Trophy className="w-5 h-5 text-scratch" />
+                <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center overflow-hidden p-1">
+                  <img src="/src/assets/NinoFeliz.png" alt="Estudiantes" className="w-full h-full object-contain" />
                 </div>
                 <div>
                   <p className="font-bold text-lg">20+</p>
@@ -132,8 +132,8 @@ export default function Hero() {
                 </div>
               </div>
               <div className="flex items-center gap-2 text-white/90">
-                <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center">
-                  <Zap className="w-5 h-5 text-arduino" />
+                <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center overflow-hidden p-1">
+                  <img src="/src/assets/Virrete.png" alt="Cursos" className="w-full h-full object-contain" />
                 </div>
                 <div>
                   <p className="font-bold text-lg">7</p>
@@ -141,8 +141,8 @@ export default function Hero() {
                 </div>
               </div>
               <div className="flex items-center gap-2 text-white/90">
-                <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center">
-                  <Target className="w-5 h-5 text-sql" />
+                <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center overflow-hidden p-1">
+                  <img src="/src/assets/Satisfaccion.png" alt="Satisfacción" className="w-full h-full object-contain" />
                 </div>
                 <div>
                   <p className="font-bold text-lg">98%</p>
