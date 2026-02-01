@@ -1,31 +1,30 @@
 import { useCallback } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import { 
-  Heart, Lightbulb, Rocket, Shield, Users, 
-  ChevronLeft, ChevronRight, Quote
+  Users, ChevronLeft, ChevronRight, Quote
 } from 'lucide-react';
 
 const values = [
   {
-    icon: <Heart className="w-6 h-6" />,
+    icon: <img src="/src/assets/Pasion.png" alt="Pasión" className="w-8 h-8 object-contain" />,
     title: 'Pasión por enseñar',
     description: 'Amamos lo que hacemos y transmitimos esa pasión a nuestros estudiantes.',
     color: 'from-red-400 to-pink-500',
   },
   {
-    icon: <Lightbulb className="w-6 h-6" />,
+    icon: <img src="/src/assets/Aprendizaje.png" alt="Aprendizaje" className="w-8 h-8 object-contain" />,
     title: 'Aprendizaje creativo',
     description: 'Fomentamos la creatividad y el pensamiento crítico en cada clase.',
     color: 'from-yellow-400 to-orange-500',
   },
   {
-    icon: <Rocket className="w-6 h-6" />,
+    icon: <img src="/src/assets/Innovacion.png" alt="Innovación" className="w-8 h-8 object-contain" />,
     title: 'Innovación constante',
     description: 'Actualizamos nuestros contenidos para estar a la vanguardia tecnológica.',
     color: 'from-python to-fun-purple',
   },
   {
-    icon: <Shield className="w-6 h-6" />,
+    icon: <img src="/src/assets/Entorno.png" alt="Seguridad" className="w-8 h-8 object-contain" />,
     title: 'Entorno seguro',
     description: 'Creamos un espacio seguro donde los niños pueden explorar y aprender.',
     color: 'from-sql to-cyan-500',
