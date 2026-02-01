@@ -82,7 +82,7 @@ export default function Hero() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight mb-6 animate-slide-up" style={{ animationDelay: '0.1s' }}>
               Conviértete en un
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-scratch via-arduino to-scratch animate-pulse-soft">
-                Super Developer
+                Super Developer Junior
               </span>
               desde pequeño
             </h1>

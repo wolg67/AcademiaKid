@@ -154,7 +154,7 @@ export default function Courses() {
             {/* Professor Message */}
             <div className="text-center">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Soy profesor con <span className="font-bold text-python">30+ años de experiencia</span> enseñando a estudiantes de todos los niveles. En continua actualización en la Programación, con dominio de varios lenguajes. Me especializo en enseñar a programar desde cero. Y ahora con una didáctica Para el Aprendizaje estos lenguajes de Programación para Niños. Comienza aprender{' '}
+                Soy profesor con <span className="font-bold text-python">30+ años de experiencia</span> enseñando a estudiantes de todos los niveles. En continua actualización en la Programación, con dominio de varios lenguajes. Me especializo en enseñar a programar desde cero. Y ahora con una didáctica Centrada en el Desarrollo de las competencias necesarias para el Aprendizaje estos lenguajes de Programación para Niños. Comienza aprender{' '}
                 <span className="font-semibold text-python">Python</span>,{' '}
                 <span className="font-semibold text-arduino">HTML</span>,{' '}
                 <span className="font-semibold text-sql">CSS</span>,{' '}
