@@ -150,7 +150,7 @@ export default function About() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Nuestra Misión</h3>
               <p className="text-gray-600 leading-relaxed">
-                Democratizar la educación en programación para niños y jóvenes,
+                Innovar la educación en programación para niños y jóvenes,
                 proporcionando herramientas accesibles y divertidas que desarrollen
                 habilidades tecnológicas, creatividad y pensamiento lógico desde temprana edad.
               </p>
@@ -167,7 +167,7 @@ export default function About() {
               <p className="text-gray-600 leading-relaxed">
                 Ser la academia Virtual innovadora en formación tecnológica para jóvenes,
                 reconocida por transformar la manera en que los niños aprenden tecnología,
-                creando una comunidad de jóvenes innovadores preparados para el futuro.
+                creando una comunidad de estudiantes creativos preparados para el futuro.
               </p>
             </div>
           </div>
