@@ -124,7 +124,7 @@ export default function Hero() {
             <div className="flex flex-wrap justify-center lg:justify-start gap-6 mt-10 animate-slide-up" style={{ animationDelay: '0.4s' }}>
               <div className="flex items-center gap-2 text-white/90">
                 <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center overflow-hidden p-1">
-                  <img src="/src/assets/NinoFeliz.png" alt="Estudiantes" className="w-full h-full object-contain" />
+                  <img src="/assets/NinoFeliz.png" alt="Estudiantes" className="w-full h-full object-contain" />
                 </div>
                 <div>
                   <p className="font-bold text-lg">20+</p>
@@ -133,7 +133,7 @@ export default function Hero() {
               </div>
               <div className="flex items-center gap-2 text-white/90">
                 <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center overflow-hidden p-1">
-                  <img src="/src/assets/Virrete.png" alt="Cursos" className="w-full h-full object-contain" />
+                  <img src="/assets/Virrete.png" alt="Cursos" className="w-full h-full object-contain" />
                 </div>
                 <div>
                   <p className="font-bold text-lg">7</p>
@@ -142,7 +142,7 @@ export default function Hero() {
               </div>
               <div className="flex items-center gap-2 text-white/90">
                 <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center overflow-hidden p-1">
-                  <img src="/src/assets/Satisfaccion.png" alt="Satisfacción" className="w-full h-full object-contain" />
+                  <img src="/assets/Satisfaccion.png" alt="Satisfacción" className="w-full h-full object-contain" />
                 </div>
                 <div>
                   <p className="font-bold text-lg">98%</p>
@@ -163,7 +163,7 @@ export default function Hero() {
               <div className="absolute inset-4 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center">
                 <div className="text-center">
                   <div className="w-32 h-32 mx-auto rounded-2xl bg-white/95 flex items-center justify-center mb-4 shadow-glow-purple float-animation p-4">
-                    <img src="/src/assets/logo.svg" alt="AcademiaKid Logo" className="w-full h-full object-contain" />
+                    <img src="/assets/logo.svg" alt="AcademiaKid Logo" className="w-full h-full object-contain" />
                   </div>
                   <p className="text-white font-bold text-xl">AcademiaKid</p>
                 </div>
@@ -172,37 +172,37 @@ export default function Hero() {
               {/* Floating course icons - 7 elementos distribuidos en círculo */}
               {/* Python - Top */}
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-16 h-16 rounded-xl bg-white flex items-center justify-center shadow-glow-blue float-animation p-2" style={{ animationDelay: '0.5s' }}>
-                <img src="/src/assets/python.svg" alt="Python" className="w-full h-full object-contain" />
+                <img src="/assets/python.svg" alt="Python" className="w-full h-full object-contain" />
               </div>
               
               {/* JavaScript - Top Right */}
               <div className="absolute top-8 -right-6 w-14 h-14 rounded-xl bg-white flex items-center justify-center shadow-lg float-animation p-2" style={{ animationDelay: '0.7s' }}>
-                <img src="/src/assets/js.svg" alt="JavaScript" className="w-full h-full object-contain" />
+                <img src="/assets/js.svg" alt="JavaScript" className="w-full h-full object-contain" />
               </div>
               
               {/* Arduino - Right */}
               <div className="absolute top-1/2 -translate-y-1/2 -right-6 w-14 h-14 rounded-xl bg-white flex items-center justify-center shadow-glow-orange float-animation p-2" style={{ animationDelay: '0.9s' }}>
-                <img src="/src/assets/arduino.svg" alt="Arduino" className="w-full h-full object-contain" />
+                <img src="/assets/arduino.svg" alt="Arduino" className="w-full h-full object-contain" />
               </div>
               
               {/* SQL - Bottom Right */}
               <div className="absolute bottom-8 -right-6 w-14 h-14 rounded-xl bg-white flex items-center justify-center shadow-lg float-animation p-2" style={{ animationDelay: '1.1s' }}>
-                <img src="/src/assets/sql.svg" alt="SQL" className="w-full h-full object-contain" />
+                <img src="/assets/sql.svg" alt="SQL" className="w-full h-full object-contain" />
               </div>
               
               {/* Scratch - Bottom */}
               <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-14 h-14 rounded-xl bg-white flex items-center justify-center shadow-lg float-animation p-2" style={{ animationDelay: '1.3s' }}>
-                <img src="/src/assets/scratch.svg" alt="Scratch" className="w-full h-full object-contain" />
+                <img src="/assets/scratch.svg" alt="Scratch" className="w-full h-full object-contain" />
               </div>
               
               {/* CSS - Bottom Left */}
               <div className="absolute bottom-8 -left-6 w-14 h-14 rounded-xl bg-white flex items-center justify-center shadow-lg float-animation p-2" style={{ animationDelay: '1.5s' }}>
-                <img src="/src/assets/css.svg" alt="CSS" className="w-full h-full object-contain" />
+                <img src="/assets/css.svg" alt="CSS" className="w-full h-full object-contain" />
               </div>
               
               {/* HTML - Left */}
               <div className="absolute top-1/2 -translate-y-1/2 -left-6 w-14 h-14 rounded-xl bg-white flex items-center justify-center shadow-glow-purple float-animation p-2" style={{ animationDelay: '1.7s' }}>
-                <img src="/src/assets/html.svg" alt="HTML" className="w-full h-full object-contain" />
+                <img src="/assets/html.svg" alt="HTML" className="w-full h-full object-contain" />
               </div>
             </div>
           </div>

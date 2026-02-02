@@ -6,25 +6,25 @@ import {
 
 const values = [
   {
-    icon: <img src="/src/assets/Pasion.png" alt="Pasión" className="w-8 h-8 object-contain" />,
+    icon: <img src="/assets/Pasion.png" alt="Pasión" className="w-8 h-8 object-contain" />,
     title: 'Pasión por enseñar',
     description: 'Amamos lo que hacemos y transmitimos esa pasión a nuestros estudiantes.',
     color: 'from-red-400 to-pink-500',
   },
   {
-    icon: <img src="/src/assets/Aprendizaje.png" alt="Aprendizaje" className="w-8 h-8 object-contain" />,
+    icon: <img src="/assets/Aprendizaje.png" alt="Aprendizaje" className="w-8 h-8 object-contain" />,
     title: 'Aprendizaje creativo',
     description: 'Fomentamos la creatividad y el pensamiento crítico en cada clase.',
     color: 'from-yellow-400 to-orange-500',
   },
   {
-    icon: <img src="/src/assets/Innovacion.png" alt="Innovación" className="w-8 h-8 object-contain" />,
+    icon: <img src="/assets/Innovacion.png" alt="Innovación" className="w-8 h-8 object-contain" />,
     title: 'Innovación constante',
     description: 'Actualizamos nuestros contenidos para estar a la vanguardia tecnológica.',
     color: 'from-python to-fun-purple',
   },
   {
-    icon: <img src="/src/assets/Entorno.png" alt="Seguridad" className="w-8 h-8 object-contain" />,
+    icon: <img src="/assets/Entorno.png" alt="Seguridad" className="w-8 h-8 object-contain" />,
     title: 'Entorno seguro',
     description: 'Creamos un espacio seguro donde los niños pueden explorar y aprender.',
     color: 'from-sql to-cyan-500',
@@ -32,10 +32,10 @@ const values = [
 ];
 
 const stats = [
-  { number: '20+', label: 'Estudiantes felices', icon: <img src="/src/assets/NinoFeliz.png" alt="Estudiantes" className="w-8 h-8 object-contain" /> },
-  { number: '7', label: 'Cursos disponibles', icon: <img src="/src/assets/Virrete.png" alt="Cursos" className="w-8 h-8 object-contain" /> },
-  { number: '50+', label: 'Proyectos creados', icon: <img src="/src/assets/Proyecto.png" alt="Proyectos" className="w-8 h-8 object-contain" /> },
-  { number: '98%', label: 'Satisfacción', icon: <img src="/src/assets/Satisfaccion.png" alt="Satisfacción" className="w-8 h-8 object-contain" /> },
+  { number: '20+', label: 'Estudiantes felices', icon: <img src="/assets/NinoFeliz.png" alt="Estudiantes" className="w-8 h-8 object-contain" /> },
+  { number: '7', label: 'Cursos disponibles', icon: <img src="/assets/Virrete.png" alt="Cursos" className="w-8 h-8 object-contain" /> },
+  { number: '50+', label: 'Proyectos creados', icon: <img src="/assets/Proyecto.png" alt="Proyectos" className="w-8 h-8 object-contain" /> },
+  { number: '98%', label: 'Satisfacción', icon: <img src="/assets/Satisfaccion.png" alt="Satisfacción" className="w-8 h-8 object-contain" /> },
 ];
 
 const testimonials = [
@@ -44,7 +44,7 @@ const testimonials = [
     age: '10 años',
     course: 'Python',
     text: 'Aprendí a crear mi primer juego y fue increíble. ¡Python es muy divertido!',
-    image: '/src/assets/testimonial-1.png',
+    image: '/assets/testimonial-1.png',
     color: 'text-python',
     bg: 'bg-python/10'
   },
@@ -53,7 +53,7 @@ const testimonials = [
     age: '12 años',
     course: 'Arduino',
     text: 'Pude construir un robot que esquiva obstáculos. ¡La electrónica es mágica!',
-    image: '/src/assets/testimonial-2.png',
+    image: '/assets/testimonial-2.png',
     color: 'text-arduino',
     bg: 'bg-arduino/10'
   },
@@ -62,7 +62,7 @@ const testimonials = [
     age: '8 años',
     course: 'Scratch',
     text: 'Me encanta programar con bloques. Es como jugar pero creando mis historias.',
-    image: '/src/assets/testimonial-3.png',
+    image: '/assets/testimonial-3.png',
     color: 'text-scratch',
     bg: 'bg-scratch/10'
   },
@@ -71,7 +71,7 @@ const testimonials = [
     age: '13 años',
     course: 'SQL',
     text: 'Ahora entiendo cómo las apps guardan tanta información. ¡Las bases de datos son geniales!',
-    image: '/src/assets/testimonial-5.png',
+    image: '/assets/testimonial-5.png',
     color: 'text-sql',
     bg: 'bg-sql/10'
   },
@@ -80,7 +80,7 @@ const testimonials = [
     age: '11 años',
     course: 'HTML',
     text: 'Hice mi primera página web desde cero. ¡Se siente genial verla en el navegador!',
-    image: '/src/assets/testimonial-6.png',
+    image: '/assets/testimonial-6.png',
     color: 'text-html',
     bg: 'bg-html/10'
   },
@@ -89,7 +89,7 @@ const testimonials = [
     age: '11 años',
     course: 'CSS',
     text: 'Me encanta darle colores y animaciones a mis diseños. ¡Hago que todo se vea pro!',
-    image: '/src/assets/testimonial-5.png',
+    image: '/assets/testimonial-5.png',
     color: 'text-css',
     bg: 'bg-css/10'
   },
@@ -98,7 +98,7 @@ const testimonials = [
     age: '14 años',
     course: 'JavaScript',
     text: 'Con JavaScript le di vida a mis proyectos. ¡Puedo controlar todo con lógica!',
-    image: '/src/assets/testimonial-4.png',
+    image: '/assets/testimonial-4.png',
     color: 'text-js',
     bg: 'bg-js/10'
   }
@@ -146,7 +146,7 @@ export default function About() {
             <div className="absolute top-0 right-0 w-32 h-32 bg-python/10 rounded-full -translate-y-1/2 translate-x-1/2 group-hover:scale-110 transition-transform duration-500" />
             <div className="relative">
               <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-python to-fun-purple flex items-center justify-center mb-6 shadow-lg overflow-hidden p-2">
-                <img src="/src/assets/Mision.png" alt="Misión" className="w-full h-full object-contain" />
+                <img src="/assets/Mision.png" alt="Misión" className="w-full h-full object-contain" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Nuestra Misión</h3>
               <p className="text-gray-600 leading-relaxed">
@@ -161,7 +161,7 @@ export default function About() {
             <div className="absolute top-0 right-0 w-32 h-32 bg-arduino/10 rounded-full -translate-y-1/2 translate-x-1/2 group-hover:scale-110 transition-transform duration-500" />
             <div className="relative">
               <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-arduino to-scratch flex items-center justify-center mb-6 shadow-lg overflow-hidden p-2">
-                <img src="/src/assets/Vision.png" alt="Visión" className="w-full h-full object-contain" />
+                <img src="/assets/Vision.png" alt="Visión" className="w-full h-full object-contain" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Nuestra Visión</h3>
               <p className="text-gray-600 leading-relaxed">

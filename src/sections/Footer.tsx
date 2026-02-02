@@ -55,7 +55,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <a href="#inicio" onClick={(e) => { e.preventDefault(); scrollToSection('#inicio'); }} className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 rounded-xl bg-white/95 flex items-center justify-center p-1 shadow-sm">
-                <img src="/src/assets/logo.svg" alt="AcademiaKid Logo" className="w-full h-full object-contain" />
+                <img src="/assets/logo.svg" alt="AcademiaKid Logo" className="w-full h-full object-contain" />
               </div>
               <div>
                 <span className="font-bold text-xl">AcademiaKid</span>

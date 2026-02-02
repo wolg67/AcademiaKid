@@ -29,7 +29,7 @@ const courses: Course[] = [
     name: 'Python',
     description: 'El lenguaje de programación más amigable para principiantes',
     fullDescription: 'Python es el lenguaje perfecto para iniciar tu viaje en la programación. Con una sintaxis clara y sencilla, aprenderás a crear juegos, aplicaciones y resolver problemas reales mientras desarrollas tu lógica computacional.',
-    logo: '/src/assets/python.svg',
+    logo: '/assets/python.svg',
     color: 'python',
     gradient: 'from-python to-python-dark',
     duration: '12 semanas',
@@ -44,7 +44,7 @@ const courses: Course[] = [
     name: 'Arduino',
     description: 'Programación física y electrónica divertida',
     fullDescription: 'Con Arduino, la programación cobra vida. Aprende a controlar luces, motores, sensores y crear proyectos electrónicos increíbles mientras entiendes cómo funciona la tecnología que nos rodea.',
-    logo: '/src/assets/arduino.svg',
+    logo: '/assets/arduino.svg',
     color: 'arduino',
     gradient: 'from-arduino to-arduino-dark',
     duration: '10 semanas',
@@ -59,7 +59,7 @@ const courses: Course[] = [
     name: 'Scratch',
     description: 'Programación visual con bloques de colores',
     fullDescription: 'Scratch hace que programar sea como jugar con bloques de construcción. Arrastra y suelta bloques de colores para crear animaciones, juegos y historias interactivas. ¡Perfecto para los más pequeños!',
-    logo: '/src/assets/scratch.svg',
+    logo: '/assets/scratch.svg',
     color: 'scratch',
     gradient: 'from-scratch to-scratch-dark',
     duration: '8 semanas',
@@ -74,7 +74,7 @@ const courses: Course[] = [
     name: 'HTML',
     description: 'Crea la estructura de tus propios sitios web',
     fullDescription: 'HTML es la base de cada sitio web en el mundo. Aprende a usar etiquetas para crear contenido, organizar estructuras y dar tus primeros pasos en el emocionante mundo del desarrollo web profesional.',
-    logo: '/src/assets/html.svg',
+    logo: '/assets/html.svg',
     color: 'html',
     gradient: 'from-html to-html-dark',
     duration: '6 semanas',
@@ -89,7 +89,7 @@ const courses: Course[] = [
     name: 'CSS',
     description: 'Diseña y da estilo a la web con colores y animaciones',
     fullDescription: 'Si HTML es el esqueleto, CSS es la piel y el estilo. Aprende a transformar sitios web aburridos en experiencias visualmente asombrosas usando colores, fuentes, layouts modernos y animaciones espectaculares.',
-    logo: '/src/assets/css.svg',
+    logo: '/assets/css.svg',
     color: 'css',
     gradient: 'from-css to-css-dark',
     duration: '8 semanas',
@@ -104,7 +104,7 @@ const courses: Course[] = [
     name: 'JavaScript',
     description: 'Dale vida y magia a tus páginas web con lógica',
     fullDescription: 'JavaScript es el cerebro de la web. Aprende a programar la interactividad, crear aplicaciones dinámicas y controlar cada elemento de tu sitio web. ¡El lenguaje más popular del mundo te espera!',
-    logo: '/src/assets/js.svg',
+    logo: '/assets/js.svg',
     color: 'js',
     gradient: 'from-js to-js-dark',
     duration: '14 semanas',
@@ -119,7 +119,7 @@ const courses: Course[] = [
     name: 'SQL',
     description: 'Gestión de bases de datos como un experto',
     fullDescription: 'SQL es el lenguaje que permite hablar con las bases de datos. Aprende a organizar, buscar y analizar datos como un verdadero profesional de la tecnología. ¡Una habilidad muy demandada!',
-    logo: '/src/assets/sql.svg',
+    logo: '/assets/sql.svg',
     color: 'sql',
     gradient: 'from-sql to-sql-dark',
     duration: '10 semanas',
@@ -144,7 +144,7 @@ export default function Courses() {
             <div className="flex justify-center mb-6">
               <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-gradient-to-r from-python via-fun-purple to-arduino shadow-lg">
                 <img 
-                   src="/src/williamlozano.svg" 
+                   src="/Imagenes/williamlozano.svg" 
                   alt="William Lozano - Profesor" 
                   className="w-full h-full object-cover"
                 />
@@ -154,7 +154,7 @@ export default function Courses() {
             {/* Professor Message */}
             <div className="text-center">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Soy profesor con <span className="font-bold text-python">30+ años de experiencia</span> enseñando a estudiantes de todos los niveles. En continua actualización en la Programación, con dominio de varios lenguajes. Me especializo en enseñar a programar desde cero. Y ahora con una didáctica Centrada en el Desarrollo de las competencias necesarias para el Aprendizaje estos lenguajes de Programación para Niños. Comienza aprender{' '}
+                Mi nombre se William Lozano, Soy profesor con <span className="font-bold text-python">30+ años de experiencia</span> enseñando a estudiantes de todos los niveles. En continua actualización en la Programación, con dominio de varios lenguajes. Me especializo en enseñar a programar desde cero. Y ahora con una didáctica Centrada en el Desarrollo de las competencias necesarias para el Aprendizaje estos lenguajes de Programación para Niños. Comienza aprender{' '}
                 <span className="font-semibold text-python">Python</span>,{' '}
                 <span className="font-semibold text-arduino">HTML</span>,{' '}
                 <span className="font-semibold text-sql">CSS</span>,{' '}

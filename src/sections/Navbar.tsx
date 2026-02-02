@@ -64,7 +64,7 @@ export default function Navbar() {
           >
             <div className="relative">
               <div className="w-12 h-12 rounded-xl bg-white/95 flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 p-1 shadow-sm">
-                <img src="/src/assets/logo.svg" alt="AcademiaKid Logo" className="w-full h-full object-contain" />
+                <img src="/assets/logo.svg" alt="AcademiaKid Logo" className="w-full h-full object-contain" />
               </div>
             </div>
             <div className="flex flex-col">
@@ -103,7 +103,7 @@ export default function Navbar() {
               title="Cambiar Modo"
             >
               <img 
-                src="/src/assets/oscuro-claro.svg" 
+                src="/assets/oscuro-claro.svg" 
                 alt="Cambiar Tema" 
                 className={`w-6 h-6 object-contain ${!isScrolled && theme === 'light' ? 'brightness-0 invert' : ''}`}
               />
@@ -130,7 +130,7 @@ export default function Navbar() {
               }`}
             >
               <img 
-                src="/src/assets/oscuro-claro.svg" 
+                src="/assets/oscuro-claro.svg" 
                 alt="Cambiar Tema" 
                 className={`w-6 h-6 object-contain ${!isScrolled && theme === 'light' ? 'brightness-0 invert' : ''}`}
               />
