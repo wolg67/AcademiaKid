@@ -113,9 +113,9 @@ export default function Hero() {
                 onClick={() => scrollToSection('#nosotros')}
                 size="lg"
                 variant="outline"
-                className="border-2 border-white/50 text-white hover:bg-white/20 font-bold px-8 py-6 rounded-full backdrop-blur-sm transition-all duration-300"
+                className="border-2 border-python/50 text-python hover:bg-python/10 font-bold px-8 py-6 rounded-full backdrop-blur-sm transition-all duration-300"
               >
-                <Play className="w-5 h-5 mr-2" />
+                <Play className="w-5 h-5 mr-2 fill-python/20" />
                 Conócenos
               </Button>
             </div>

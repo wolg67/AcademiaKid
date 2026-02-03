@@ -12,6 +12,7 @@ Esta es la forma más rápida si no tienes un repositorio de Git configurado:
 
 1. **Construye el proyecto localmente:**
    Abre una terminal en la carpeta del proyecto y ejecuta:
+   
    ```bash
    npm run build
    ```
@@ -48,10 +49,12 @@ Para actualizaciones automáticas cada vez que cambies el código:
 Si prefieres la línea de comandos:
 
 1. **Instala la CLI:**
+   
    ```bash
    npm install netlify-cli -g
    ```
 2. **Inicia sesión y despliega:**
+   
    ```bash
    netlify login
    netlify deploy --prod --dir dist
